@@ -15,7 +15,7 @@ function SignIn() {
 
     try {
       const data = await axios.post(
-        `${String(import.meta.env.VITE_API_URL)}/api/v1/users/login`,
+        '/api/v1/users/login',
         {
           email: emailorusername.value,
           username: emailorusername.value,
