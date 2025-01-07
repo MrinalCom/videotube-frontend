@@ -37,28 +37,28 @@ function Register() {
         >
           <Input
             name="fullname"
-            className="w-3/4 bg-gray-700 text-gray-200 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-3/4 text-black border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             label="Full Name"
             type="text"
             placeholder="Enter your full name"
           />
           <Input
             name="email"
-            className="w-3/4 bg-gray-700 text-gray-200 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-3/4 text-black border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             label="Email"
             type="email"
             placeholder="Enter your email address"
           />
           <Input
             name="username"
-            className="w-3/4 bg-gray-700 text-gray-200 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-3/4 text-black border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             label="Username"
             type="text"
             placeholder="Choose a username"
           />
           <Input
             name="password"
-            className="w-3/4 bg-gray-700 text-gray-200 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-3/4 text-black border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             label="Password"
             type="password"
             placeholder="Create a password"
