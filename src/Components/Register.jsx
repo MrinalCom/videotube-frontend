@@ -11,7 +11,7 @@ function Register() {
     const { fullname, email, password, username } = e.target;
 
     try {
-      const data = await axios.post('http://localhost:3000/api/v1/users/register', {
+      const data = await axios.post('/api/v1/users/register', {
         fullName: fullname.value,
         email: email.value,
         username: username.value,
